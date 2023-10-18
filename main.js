@@ -1,9 +1,3 @@
-// const btnSubmit = document.getElementById('submit')
-// const btnReset = document.getElementById('reset')
-// const txtName = document.getElementById('name')
-// const txtEmail = document.getElementById('mail')
-// const txtMessage = document.getElementById('message')
-
 let btnSubmit = document.getElementById('submit')
 let btnReset = document.getElementById('reset')
 let txtName = document.getElementById('name')
@@ -28,4 +22,3 @@ function guardarDatos(e) {
 
 btnSubmit.addEventListener('click', guardarDatos)
 btnReset.addEventListener('click', () => localStorage.clear())
-
